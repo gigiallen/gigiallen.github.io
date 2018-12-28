@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+  <link rel="icon" href="https://78.media.tumblr.com/avatar_507b1e30dbfc_128.pnj">
+  	<meta property="og:image" content="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/sad-girl-header-3.jpg?raw=true" />
+  	<meta property="og:title" content="Roach" />
+	<meta property="og:description" content="Sad Girl Zine now available!" />
+</head>
+<!-- BEGIN PAGE TITLE -->
+<title>ROACH SUCKS</title>
+<!-- END PAGE TITLE -->
+
+<!-- BEGIN STYLESHEETS --> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sad Girl Zine now available!">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=UnifrakturCook:700">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=UnifrakturCook:700">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN CUSTOM CSS --> 
+<style>
+/* BEGIN GOOGLE FONTS */
+.w3-sidebar a {font-family: 'UnifrakturCook', cursive;}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: 'UnifrakturCook', cursive;}
+/* END GOOGLE FONTS */
+/* BEGIN LINK PROPERTIES */
+input {
+	text-align: center;
+
+	}	
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+/* END LINK PROPERTIES */
+</style>
+<!-- END CUSTOM CSS --> 
+
+<!-- BEGIN PAGE BODY --> 
+<body class="w3-content" style="max-width:1200px">
+
+<!-- BEGIN SIDEBAR -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+<!-- SIDEBAR HEADER -->  
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>ROACH</b></h3>
+  </div>
+<!-- END SIDEBAR HEADER -->
+<!-- BEGIN SIDEBAR MENU --> 
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+<!-- BEGIN ABOUT ROACH -->   
+     <button onclick="myFunction('aboutroach')" class="w3-button w3-block w3-white w3-left-align">
+     About Roach <i class="fa fa-caret-down"></i></button>
+    <div id="aboutroach" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+    <p class="w3-bar-item w3-light-grey"><a href="roach-nyc.github.io/CV.html">Curiculum Vitae</a></p>
+    <p class="w3-bar-item w3-light-grey"><a href="roach-nyc.github.io/archive.html">Archive</a></p>
+	<p class="w3-bar-item w3-light-grey"><a href="http://www.verminurine.com/">Vermin Urine</a><br><br>Vermin urine specializes custom, hand-detailed, one-of-a-kind, second-hand leather apparel.</p>
+    </div>
+<!-- END ABOUT ROACH -->   
+<!-- BEGIN SHIPMENT -->      
+    <button onclick="myFunction('shipment')" class="w3-button w3-block w3-white w3-left-align">
+      Shipment <i class="fa fa-caret-down"></i></button>
+    <div id="shipment" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <p class="w3-bar-item w3-light-grey">Shipping rates are as follows:<br>&emsp;• Domestic, $6.70 flat rate<br>&emsp;• International, calculated<p>    
+    <p class="w3-bar-item w3-light-grey">If you would like a custom shipping quote, please contact Roach.<p>  
+    <p class="w3-bar-item w3-light-grey">Items are shipped USPS Priority mail with a tracking number included.<p>
+      <p class="w3-bar-item w3-light-grey">Shipments are made every two weeks, sometimes sooner. Please be patient.<p>
+      <p class="w3-bar-item w3-light-grey">If you believe your shipment to be lost in transit, please contact Roach.<p>
+    </div>
+<!-- END SHIPMENT -->
+<!-- BEGIN RETURNS -->     
+    <button onclick="myFunction('returns')" class="w3-button w3-block w3-white w3-left-align">
+      Returns <i class="fa fa-caret-down"></i></button>
+    <div id="returns" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <p class="w3-bar-item w3-light-grey">No returns under any circumstances.</p>
+    </div>
+<!-- END RETURNS --> 
+  </div>
+<!-- END SIDEBAR MENU --> 
+<!-- BEGIN SIDEBAR LINKS --> 
+<!-- BEGIN BLOG -->   
+<a href="http://blog.roachsucks.com" target="_top" class="w3-bar-item w3-button w3-padding">Blog</a>
+<!-- END BLOG -->   
+<!-- BEGIN CONTACT -->    
+  <a href="mailto:scumfcker@gmail.com?Subject=Roach Sucks" target="_top" class="w3-bar-item w3-button w3-padding">Contact</a> 
+<!-- END CONTACT --> 
+<!-- BEGIN NEWSLETTER -->    
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+<!-- END NEWSLETTER -->
+<!-- END SIDEBAR LINKS --> 
+</nav>
+<!-- BEGIN SIDEBAR -->
+
+<!-- BEGIN TOP MENU ON SMALL SCREENS -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">ROACH</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+<!-- END TOP MENU ON SMALL SCREENS -->
+
+<!-- BEGIN SIDEBAR OVERLAY EFFECT ON SMALL SCREENS -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<!-- END SIDEBAR OVERLAY EFFECT ON SMALL SCREENS -->
+
+<!-- !BEGIN PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+<!-- !END PAGE CONTENT! -->
+
+<!-- BEGIN PUSH DOWN CONTENT ON SMALL SCREENS -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+<!-- END PUSH DOWN CONTENT ON SMALL SCREENS -->  
+
+<!-- BEGIN TOP HEADER -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left"></p>
+    <p class="w3-right">
+<!-- BEGIN PAYPAL VIEW CART -->
+     <p><form class="w3-right" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="roach-nyc.github.io/Roach-images/view-cart-2.png" style="height:30px" border="0" name="submit" alt="Add to Cart">
+</form></p><br></p>
+<!-- END PAYPAL VIEW CART -->
+  </header>
+<!-- END TOP HEADER -->
+
+<!-- BEGIN IMAGE HEADER -->
+  <div class="w3-display-container w3-container">
+    <img src="roach-nyc.github.io/Roach-images/header.jpg" alt="Header" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">Sad Girl Zine now available.</h1>
+      <h1 class="w3-hide-large w3-hide-medium">Sad Girl Zine now available.</h1>
+      <h1 class="w3-hide-small">"If I were to offer you something, would you take it?"</h1>
+	    <p><a href="#shop" class="w3-button w3-white w3-padding-large w3-large w3-text-black">Shop Now</a></p>
+    </div>
+  </div>
+<!-- END IMAGE HEADER -->
+  
+<!-- BEGIN PRODUCT GRID -->
+<!-- BEGIN ITEM LISTING -->  
+  <div class="w3-container w3-text-grey" id="shop">
+    <p>6 Items</p>
+  </div>
+<!--END ITEM LISTING --> 
+<!-- BEGIN PRODUCT GRID COLUMN 1 -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+ <!-- BEGIN DADDY LOGO BLACK -->    
+      <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/daddy-logo-black.png?raw=true" style="width:100%">
+            <span class="w3-tag w3-display-topleft">Low Stock</span>
+            <div class="w3-display-middle w3-display-hover">
+                <button button onclick="document.getElementById('daddy-logo-black').style.display='block'" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </div>
+        <p>Daddy Logo Shirt - Black<br><b>$10.00</b></p>
+      </div>
+ <!-- END DADDY LOGO BLACK --> 
+ <!-- BEGIN SAD GIRL ZINE -->    
+      <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/sad-girl-zine.png?raw=true" style="width:100%">
+            	<span class="w3-tag w3-display-topleft">New</span>
+            <div class="w3-display-middle w3-display-hover">
+            <button button onclick="document.getElementById('babygirl-2').style.display='block'" class="w3-button w3-black">Buy Now</button>
+            </div>
+        </div>
+        <p>Sad Girl Zine<br><b>$5.00</b></p>
+      </div>
+    </div>
+<!-- END SAD GIRL ZINE --> 
+<!-- END PRODUCT GRID COLUMN 1 -->
+<!-- BEGIN PRODUCT GRID COLUMN 2 -->
+    <div class="w3-col l3 s6">
+<!-- BEGIN DADDY LOGO WHITE -->  
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/daddy-logo-white.png?raw=true" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Low Stock</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button button onclick="document.getElementById('daddy-logo-white').style.display='block'" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Daddy Logo Shirt - White<br><b>$10.00</b></p>
+      </div>
+<!-- END DADDY LOGO WHITE -->  
+<!-- BEGIN BABYGIRL SAMPLER -->  
+      <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/babygirl-sampler.png?raw=true" style="width:100%">
+		<span class="w3-tag w3-display-topleft">New</span>
+            <div class="w3-display-middle w3-display-hover">
+            <button button onclick="document.getElementById('babygirl-1').style.display='block'" class="w3-button w3-black">Buy Now <i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </div>
+        <p>Babygirl Sampler<br><b>$10.00</b></p>
+      </div>
+    </div>
+<!-- END BABYGIRL SAMPLER -->  
+<!-- END PRODUCT GRID COLUMN 2 -->
+
+<!-- BEGIN PRODUCT GRID COLUMN 3 -->
+    <div class="w3-col l3 s6">
+<!-- BEGIN BABYGIRL LOGO BLACK -->
+      <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/babygirl-logo-black.png?raw=true" style="width:100%">
+		<span class="w3-tag w3-display-topleft">Low Stock</span>
+            <div class="w3-display-middle w3-display-hover">
+            <button button onclick="document.getElementById('babygirl-logo-black').style.display='block'" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+            </div>
+        </div>
+        <p>Babygirl Logo Shirt - Black<br><b>$10.00</b></p>
+      </div>
+<!-- END BABYGIRL LOGO BLACK -->
+<!-- BEGIN DADDY ZINE #1 -->
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <div class="w3-display-middle w3-display-hover">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+<!-- END DADDY ZINE #1 -->
+<!-- END PRODUCT GRID COLUMN 3 -->
+<!-- BEGIN PRODUCT GRID COLUMN 4 -->
+    <div class="w3-col l3 s6">
+<!-- BEGIN BABYGIRL LOGO WHITE -->    
+      <div class="w3-container">
+        <div class="w3-display-container">
+            <img src="https://github.com/roach-nyc/roach-nyc.github.io/blob/master/Roach-images/babygirl-logo-white.png?raw=true" style="width:100%">
+		<span class="w3-tag w3-display-topleft">Low Stock</span>
+            <div class="w3-display-middle w3-display-hover">
+            <button button onclick="document.getElementById('babygirl-logo-white').style.display='block'" class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        <p>Babygirl Logo Shirt - White<br><b>$10.00</b></p>
+      </div>
+<!-- END BABYGIRL LOGO WHITE -->
+<!-- END PRODUCT GRID COLUMN 4 -->
+    </div>
+  </div>
+<!-- END PRODUCT GRID -->
+
+<!-- BEGIN SUBSCRIBE FOOTER -->
+  <div class="w3-container w3-black w3-padding-32">
+<!-- BEGIN MAILCHIMP SIGNIN FORM -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	#mc_embed_signup{background:#fff; clear:left; color:#000000; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	#mc-embedded-subscribe {color:#000000; background-color: #ffffff !important; }
+	#mc-embedded-subscribe:hover { background-color:#999999 !important; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<center><form action="https://roach999.us14.list-manage.com/subscribe/post?u=2e24229d7a72a613545f00d07&amp;id=85e5587d31" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL"><h2 class="w3-wide">Roach News</h2>
+      <p>Subscribe to Get the Latest on Roach</p></label>
+	<input type="email" value="" name="EMAIL" class="w3-input w3-border" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2e24229d7a72a613545f00d07_85e5587d31" tabindex="-1" value=""></div><br>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="w3-button w3-padding-large w3-text-black w3-red w3-margin-bottom"></div>
+    </div>
+	</form></center>
+</div>
+<!--END MAILCHIMP SIGNUP FORM-->
+  </div>
+<!--END SUBSCRIBE FOOTER-->
+ 
+<!-- BEGIN FOOTER -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+  <div class="w3-row-padding">
+<!-- BEGIN SHOP INFO -->  
+<div class="w3-col s4">
+	<h4>Roach</h4>
+		<p><i class="fa fa-fw fa-map-marker"></i> New York Shitty</p>
+		<p><a href="mailto:scumfcker@gmail.com?Subject=Roach Sucks" target="_top"><i class="fa fa-fw fa-envelope"></i> scumfcker@gmail.com</A></p>
+</div>
+<!-- END SHOP INFO -->
+<!-- BEGIN ACCEPTED PAYMENTS -->	  
+<div class="w3-col s4">
+	<h4>We Accept</h4>
+		<p><i class="fa fa-fw fa-paypal"></i> PayPal</p>
+		<p><i class="fa fa-fw fa-credit-card"></i> Credit Cards</p>
+</div>
+<!-- END ACCEPTED PAYMENTS -->  
+<!-- BEGIN SOCIAL LINKS -->	  
+<div class="w3-col s4">
+	<h4>Social</h4>
+		<p><a href="https://www.facebook.com/roach-nyc"><i class="fa fa-facebook-official w3-hover-opacity w3-large"></i> Facebook</a></p>
+		<p><a href="https://www.instagram.com/roachsucks/"><i class="fa fa-instagram w3-hover-opacity w3-large"></i> Instagram</a></p>
+</div>
+<!-- END SOCIAL LINKS -->
+</div>
+</footer>
+<!-- END SHOP INFO --> 
+<!-- BEGIN BOTTOM FOOTER TEXT -->  
+  <div class="w3-black w3-center w3-padding-24">R O A C H<BR>2 0 1 7</div>
+<!-- END FOOTER TEXT -->  
+<!-- END FOOTER -->  
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- BEGIN NEWSLETTER MODAL -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+<!-- BEGIN MAILCHIMP SIGNUP FORM -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://roach999.us14.list-manage.com/subscribe/post?u=2e24229d7a72a613545f00d07&amp;id=85e5587d31" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL"><h2 class="w3-wide">Roach News</h2>
+      <p>Subscribe to Get the Latest on Roach</p></label>
+	<input type="email" value="" name="EMAIL" class="w3-input w3-border" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2e24229d7a72a613545f00d07_85e5587d31" tabindex="-1" value=""></div><br>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="w3-button w3-padding-large w3-red w3-margin-bottom"></div>
+    </div>
+</form>
+</div>
+<!-- END MAILCHIMP SIGNUP FORM -->
+    </div>
+  </div>
+</div>
+<!-- END NEWSLETTER MODAL --> 
+
+<!-- BEGIN DADDY LOGO BLACK MODAL -->
+<div id="daddy-logo-black" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('daddy-logo-black').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Daddy Logo Black, $10.00<br>Screen Printed on Gildan
+Lightweight 100% Cotton T-Shirt in New York by <a href="https://www.facebook.com/Mibksilkscreeners/">MIBK Silk Screeners LLC</a></p>
+      <p><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="6WXK3GL2F8TVL">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select Size">Select Size</td></tr><tr><td><select name="os0">
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type="image" src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px" border="0" name="submit" alt="Add to Cart">
+<img alt="" border="0" src="" width="1" height="1"> <img alt="" border="0" src="" width="1" height="1">
+</form>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END DADDY LOGO BLACK MODAL -->
+
+<!-- BEGIN DADDY LOGO WHITE MODAL -->
+<div id="daddy-logo-white" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('daddy-logo-white').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p >Daddy Logo White, $10.00<br>Screen Printed on Gildan
+Lightweight 100% Cotton T-Shirt in New York by <a href="https://www.facebook.com/Mibksilkscreeners/">MIBK Silk Screeners LLC</a></p>
+      <p><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="USHBLRHAKCZVW">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select Size">Select Size</td></tr><tr><td><select name="os0">
+	<option value="X-Large">X-Large </option>
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type="image" src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px" border="0" name="submit" alt="Add to Cart">
+<img alt="" border="0" src="" width="1" height="1"> <img alt="" border="0" src="" width="1" height="1">
+</form>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END DADDY LOGO WHITE MODAL -->
+
+<!-- BEGIN BABYGIRL LOGO BLACK MODAL -->
+<div id="babygirl-logo-black" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('babygirl-logo-black').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Babygirl Logo Black, $10.00<br>Screen Printed on Gildan
+Lightweight 100% Cotton T-Shirt in New York by <a href="https://www.facebook.com/Mibksilkscreeners/">MIBK Silk Screeners LLC</a></p>
+      <p><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="9STGPAVCKMFYS">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select Size">Select Size</td></tr><tr><td><select name="os0">
+	<option value="Medium">Medium </option>
+	<option value="Large">Large </option>
+	<option value="X-Large">X-Large </option>
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type="image" src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px" border="0" name="submit" alt="Add to Cart">
+<img alt="" border="0" src="" width="1" height="1"> <img alt="" border="0" src="" width="1" height="1">
+</form>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END BABYGIRL LOGO BLACK MODAL -->
+
+<!-- BEGIN BABYGIRL LOGO WHITE MODAL -->
+<div id="babygirl-logo-white" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('babygirl-logo-white').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Babygirl Logo White, $10.00<br>Screen Printed on Gildan
+Lightweight 100% Cotton T-Shirt in New York by <a href="https://www.facebook.com/Mibksilkscreeners/">MIBK Silk Screeners LLC</a></p>
+      <p><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VJXWPSF6CVMY8">
+<table>
+<tr><td><input type="hidden" name="on0" value="Select Size">Select Size</td></tr><tr><td><select name="os0">
+	<option value="Medium">Medium </option>
+	<option value="Large">Large </option>
+	<option value="X-Large">X-Large </option>
+	<option value="XX-Large">XX-Large </option>
+</select> </td></tr>
+</table>
+<input type="image" src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px" border="0" name="submit" alt="Add to Cart">
+<img alt="" border="0" src="" width="1" height="1"> <img alt="" border="0" src="" width="1" height="1">
+</form>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END BABYGIRL LOGO WHITE MODAL -->
+
+<!-- BEGIN SAD GIRL ZINE MODAL -->
+<div id="babygirl-2" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('babygirl-2').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Sadgirl Zine, $5.00<br>24 pages. B&W with 10 original drawings. 5 ¼” X 7” hand bound.</p>
+	    <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2NG4A2Q4BLP26"><img src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px"></a></p>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END SADGIRL ZINE MODAL -->
+
+<!-- BEGIN BABYGIRL SAMPLER MODAL -->
+<div id="babygirl-1" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('babygirl-1').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Babygirl Sampler, $10.00<br>Includes three reissued zines, Daddy, Babygirl #1 and Babygirl #2.</p>
+	    <p>&emsp;• Daddy #1, 10 pages. B&W with 4 photographs. 5 ¼” X 7” hand bound.<br>
+		&emsp;• Babygirl #1, 20 pages. B&W with 11 photographs and stickers throughout. 5 ¼” X 7” hand bound.<br>
+		&emsp;• Babygirl #2, 26 pages. B&W with 13 photographs and stickers throughout. 5 ¼” X 7” hand bound.</p>
+	    <p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KPTZ3BHCGT8HL"><img src="roach-nyc.github.io/Roach-images/add-to-cart.png" style="height:21px"></a></p>
+</p>
+    </div>
+  </div>
+</div>
+<!-- END BABYGIRL SAMPLER MODAL -->
+
+<!-- BEGIN DADDY #1 MODAL -->
+<div id="daddy-1" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <span onclick="document.getElementById('daddy-1').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span>
+      <p>Daddy #1<br>10 pages. BxW with 4 photographs. 5 ¼” X 7” hand bound. (0.90 oz)<br>Sold Out</p>
+    </div>
+  </div>
+</div> 
+<!-- END DADDY #1 MODAL -->
+
+<!-- BEGIN SCRIPTS -->  
+<script>
+// BEGIN ACCORDION LEFT SIDEBAR
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// END ACCORDION LEFT SIDEBAR
+// BEGIN OPEN/CLOSE SIDEBAR
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+// END OPEN/CLOSE SIDEBAR
+</script>
+<!-- END SCRIPTS -->  
+
+</body>
+<!-- END PAGE BODY --> 
+
+</html>
