@@ -1,36 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>LHS Reunion</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Goblin+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Heebo:900|Oswald:400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1 {font-family: 'Goblin One', cursive;}
-body, html {height: 100%}
-h1 {
-  -webkit-text-stroke: .01px black;
+h3 {font-family: 'Heebo', sans-serif;
+text-shadow: 2px 2px #000000;
 }
-.bgimg {
-  background-image: url('https://s3.amazonaws.com/visitcentralflorida.org/Attractions/Hollis-Garden/Fountain-and-Lake-Mirror-at-Hollis-Garden-in-Lakeland-Central-Florida.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+body {font-family: 'Oswald', sans-serif;
 }
+.mySlides {display: none}
 </style>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    <img src="https://lhstestsite.files.wordpress.com/2016/03/cropped-lakelandlogo.png" width="100px"></img>
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top"><b><center>COMING SOON</center></b></h1>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#DATE" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFO</a>
+    <a href="#LOCATION" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOCATION</a>
+     <a href="#TICKETS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TICKETS</a>
+      <a href="#PHOTOS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTOS</a>
+    <a href="#CONTACT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#DATE" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DATE & TIME</a>
+  <a href="#LOCATION" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOCATION</a>
+  <a href="#TICKETS" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TICKETS</a>
+  <a href="PHOTOS" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHOTOS</a>
+  <a href="CONTACT" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://s3.amazonaws.com/visitcentralflorida.org/Attractions/Hollis-Garden/Fountain-and-Lake-Mirror-at-Hollis-Garden-in-Lakeland-Central-Florida.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32">
+      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3>  
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="http://lakelandfootball.com/wp-content/gallery/lake-region/Gary%20Cutrell%20LR%2032.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32">
+      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3>     
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://i1.wp.com/doggonedestinations.com/wp-content/uploads/2018/02/Lakeland-Swans-.jpg?fit=1500%2C957" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32">
+      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3>    
+    </div>
+  </div>
+
+  <!-- DATE & TIME -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="DATE">
+    <h2 class="w3-wide">DATE & TIME</h2>
+    <p class="w3-opacity"><i>4TH of July Weekend, 2019</i></p>
+    <p class="w3-justify">Dinner & drinks will be held at TBD LOCATION at TBD TIME.<br>Please note: drinks are not included in price of dinner and may be purchased for an additional fee.</p>
+  </div>
+
+  <!-- ABOUT THE LOCATION -->
+  <div class="w3-black" id="LOCATION">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">ABOUT THE LOCATION</h2>
+      <p class="w3-opacity w3-center"><i>TBD Location Name</i></p>
+      <p class="w3-justify">TBD Location info goes here.</p>
+      </div>
+      </div>
+      
+    <!-- TICKETS -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="TICKETS">
+    <h2 class="w3-wide">TICKETS</h2>
+    <p class="w3-opacity"><i>Ticket Link Here</i></p>
+    <p class="w3-justify">Ticket pricing info here.</p>
+  </div>
+
+  <!-- PHOTOS -->
+  <div class="w3-black" id="PHOTOS">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">PHOTOS</h2>
+      <p class="w3-opacity w3-center"><i>2008 & 2009</i></p>
+      <p class="w3-justify">Slideshow here.</p>
+      </div>
+      </div>
+      
+  <!-- CONTACT -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="CONTACT">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Need more info?</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>Lakeland, FL<br>
+        <i class="fa fa-phone" style="width:30px"></i>TBD<br>
+        <i class="fa fa-envelope" style="width:30px"> </i>lhsreunion0809@gmail.com<br>
+        <i class="fa fa-facebook-official" style="width:30px"></i>link here<br>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <p class="w3-medium">2019</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 </body>
 </html>
