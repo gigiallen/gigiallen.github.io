@@ -1,168 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>LHS Reunion</title>
+<html>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Heebo:900|Oswald:400" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link href="https://fonts.googleapis.com/css?family=Anton|Signika:300" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/png" href="https://lhstestsite.files.wordpress.com/2016/03/cropped-lakelandlogo.png"/>
 <style>
-h3 {font-family: 'Heebo', sans-serif;
-text-shadow: 3px 3px 5px #000000, 0 0 5px #000000;
+body, h1, h2, h3, h4, h5, h6, html {
+  height: 100%;
+  Font-Family: 'Anton', Sans-Serif;
 }
-h7 {font-family: 'Heebo', sans-serif;
-text-shadow: 2px 2px 5px #000000, 0 0 5px #000000;
-text-transform: uppercase;
+
+p {
+Font-Family: 'Signika', Sans-Serif;
+Font-Size: 16px;
 }
-body {font-family: 'Oswald', sans-serif;
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://i.imgur.com/7rTmZ5S.jpg");
+  min-height: 75%;
 }
-.mySlides {display: none}
+
+.menu {
+  display: none;
+}
 </style>
 <body>
 
-<!-- Navbar -->
+<!-- Links (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#DATE" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFO</a>
-    <a href="#LOCATION" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOCATION</a>
-     <a href="#TICKETS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TICKETS</a>
-      <a href="#PHOTOS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTOS</a>
-    <a href="#CONTACT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#kinks" class="w3-button w3-block w3-black">KINKS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#findme" class="w3-button w3-block w3-black">FIND ME</a>
+    </div>
+        <div class="w3-col s3">
+      <a href="#purchase" class="w3-button w3-block w3-black">PURCHASE</a>
+    </div>
   </div>
 </div>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#DATE" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">DATE & TIME</a>
-  <a href="#LOCATION" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">LOCATION</a>
-  <a href="#TICKETS" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TICKETS</a>
-  <a href="PHOTOS" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHOTOS</a>
-  <a href="CONTACT" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <!-- <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div> -->
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">GIGI ALLEN</span>
+  </div>
+  <!-- <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div> -->
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT YOUR GODDESS</span></h5>
+    <p class="w3-center">• Tattooed Bimbo • High Femme Domme • 6’1” Giantess • 36DD Curvy Queen • Size 11 Feet •</p>
+    <hr>
+    <div class="w3-center">
+      <p><i>“Woman's power lies in man's passion, and she knows how to use it, if man doesn't understand himself. He has only one choice: to be the tyrant over or the slave of woman.”</i></p>
+      <p>― Leopold von Sacher-Masoch, Venus in Furs</p>
+    </div>
+  </div>
 </div>
 
-<!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-
-  <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="https://s3.amazonaws.com/visitcentralflorida.org/Attractions/Hollis-Garden/Fountain-and-Lake-Mirror-at-Hollis-Garden-in-Lakeland-Central-Florida.jpg" style="width:100%">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32">
-    <img src="https://lhstestsite.files.wordpress.com/2016/03/cropped-lakelandlogo.png" width="20%"></img>
-      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3>
-      <h7>Lakeland Senior High School Class of 2008 & 2009 10-Year Reunion.</h7>  
+<!-- Kinks Container -->
+<div class="w3-container" id="kinks">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">WHAT GETS ME OFF</span></h5>
+    <div class="w3-center">
+      <p>• Foot Fetish • High Heel & Boot Fetish • Female Supremacy • FinDomme • Servitude • Worship • Humiliation • SPH • Forced Feminization • Sissification • Pantyhose • Stockings • Roleplay • Giantess • Crush Fetish • Latex • Leather • Ass Play • Armpits • JOI • CEI • Cuckolding • Edging • Ruined Orgasms • Vore •</p>
+          <p class="w3-center">Does something else pique your fancy?<br>I enjoy experimenting and trying new things.</p>
+           <p class="w3-center"><a class="w3-bar-item w3-button" href="mailto:gigiallenx@gmail.com?subject=Kink Content Request"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Send me your request</a></p>
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="http://lakelandfootball.com/wp-content/gallery/lake-region/Gary%20Cutrell%20LR%2032.jpg" style="width:100%">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32">
-    <img src="https://lhstestsite.files.wordpress.com/2016/03/cropped-lakelandlogo.png" width="20%"></img>
-      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3> 
-      <h7>Lakeland Senior High School Class of 2008 & 2009 10-Year Reunion.</h7>  
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <img src="https://i1.wp.com/doggonedestinations.com/wp-content/uploads/2018/02/Lakeland-Swans-.jpg?fit=1500%2C957" style="width:100%">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32">
-    <img src="https://lhstestsite.files.wordpress.com/2016/03/cropped-lakelandlogo.png" width="20%"></img>
-      <h3>08 WAS GREAT, 09 WAS FINE, IN 2019 - WE DO IT ONE MORE TIME!</h3>  
-      <h7>Lakeland Senior High School Class of 2008 & 2009 10-Year Reunion.</h7>  
-    </div>
-  </div>
-
-  <!-- DATE & TIME -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="DATE">
-    <h2 class="w3-wide">DATE & TIME</h2>
-    <p class="w3-opacity"><i>4TH of July Weekend, 2019</i></p>
-    <p class="w3-justify">Dinner & drinks will be held at TBD LOCATION at TBD TIME.<br>Please note: drinks are not included in price of dinner and may be purchased for an additional fee.</p>
-  </div>
-
-  <!-- ABOUT THE LOCATION -->
-  <div class="w3-black" id="LOCATION">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">ABOUT THE LOCATION</h2>
-      <p class="w3-opacity w3-center"><i>TBD Location Name</i></p>
-      <p class="w3-justify">TBD Location info goes here.</p>
-      </div>
-      </div>
-      
-    <!-- TICKETS -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="TICKETS">
-    <h2 class="w3-wide">TICKETS</h2>
-    <p class="w3-opacity"><i>Ticket Link Here</i></p>
-    <p class="w3-justify">Ticket pricing info here.</p>
-  </div>
-
-  <!-- PHOTOS -->
-  <div class="w3-black" id="PHOTOS">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">PHOTOS</h2>
-      <p class="w3-opacity w3-center"><i>2008 & 2009</i></p>
-      <p class="w3-justify">Slideshow here.</p>
-      </div>
-      </div>
-      
-  <!-- CONTACT -->
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="CONTACT">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Need more info?</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i>Lakeland, FL<br>
-        <i class="fa fa-phone" style="width:30px"></i>TBD<br>
-        <i class="fa fa-envelope" style="width:30px"> </i>lhsreunion0809@gmail.com<br>
-        <i class="fa fa-facebook-official" style="width:30px"></i>link here<br>
-      </div>
-    </div>
-  </div>
-  
-<!-- End Page Content -->
 </div>
+
+<!-- Find Me Container -->
+<div class="w3-container" id="findme">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">WHERE TO FIND ME</span></h5>
+    <p class="w3-center"><a href="https://iwantclips.com/store/926965/gigi_allen" class="w3-bar-item w3-button">WATCH</a> • <a href="https://onlyfans.com/gigi_allen" class="w3-bar-item w3-button">WORSHIP</a> • <a href="https://www.sextpanther.com/GigiAllen" class="w3-bar-item w3-button">SEXT</a> • <a href="https://cash.app/$gigiallenx" class="w3-bar-item w3-button">TRIBUTE</a><br>
+   <a class="w3-bar-item w3-button" href="https://www.instagram.com/gigi_allenx/">INSTAGRAM</a> • <a class="w3-bar-item w3-button" href="https://twitter.com/gigi_allenx">TWITTER</a></p>
+  </div><BR><BR><BR>
+</div>
+
+<!-- Purchase Container -->
+<div class="w3-container" id="purchase">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">USED PANTIES, SOCKS, STOCKINGS, & PANTYHOSE</h5>
+    <p class="w3-center">BASE PRICE FOR ALL ITEMS
+    <br>$25.00 + FREE SHIPPING</p>
+    <p class="w3-center">+ $10.00 Per Extra Day of Wear<br>+ $20.00 for Urine, Skidmarks<br>+ $30.00 for Menstrual Stains</p>
+        <p class="w3-center"><a class="w3-bar-item w3-button" href="mailto:gigiallenx@gmail.com?subject=Purchasing Items"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Send me your request</a></p>
+            <p class="w3-center"><i class="fa fa-paypal"></i>&nbsp;&nbsp;Payable via PayPal Invoice</p>
+  </div><BR><BR><BR>
+</div>
+
+<!-- End page content -->
+</div>
+
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <p class="w3-medium">2019</p>
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  <p class="w3-center"><span class="w3-tag w3-wide">© GIGI ALLEN 2021</span></p>
 </footer>
 
 <script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
   }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
 }
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+document.getElementById("myLink").click();
 </script>
 
 </body>
